@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+
+
+.skillsPage{
+    background: linear-gradient(to right, #d7d7d7, rgb(255, 255, 255) 50%, #d7d7d7);
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 60px;
+    width: 50%;
+    opacity: 1;
+}
+
+.skillsPage h3{
+    width: 50vw;
+    padding-bottom: 3vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.skillsItem{
+    display: flex;
+    flex-direction: column;
+}
+
+.skillsItem:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+
+.skillsItem img{
+    width: 108px;
+    height: 120px;
+    margin-bottom: 3vh;
+    filter: none;
+}
+
+.skillsItem h5{
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 3px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}

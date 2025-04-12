@@ -1,0 +1,15 @@
+.contactLabel{
+    padding: 20px;
+    display: grid;
+    width: 100vw;
+    height: 30px;
+    place-items: center ;
+    min-height: 150px;
+}
+.contactLabel h1{
+    border: 5px solid black;
+    width: fit-content;
+    padding: 2.5vh;
+    padding-left: 4vh;
+    letter-spacing: 20px;
+}

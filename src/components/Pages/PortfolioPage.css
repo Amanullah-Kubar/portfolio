@@ -1,0 +1,14 @@
+.portfolioPage{
+    height: fit-content;
+    width: fit-content;
+    background: linear-gradient(to right, #d7d7d7, rgb(255, 255, 255) 50%, #d7d7d7);
+    margin-top: 0; 
+    padding: 30px;
+}
+.mainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
