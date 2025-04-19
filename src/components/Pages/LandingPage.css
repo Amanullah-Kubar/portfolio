@@ -17,7 +17,7 @@ body {
     justify-content: center; 
     flex-wrap: wrap;
     width: 100vw;
-    height: fit-content;
+    height: 100vh;
     padding: 0 5vw;
 }
 
@@ -27,11 +27,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* height: 90vh; */
+    width: auto;
     transform: scaleX(-1);
 }
 
 .picture img {
-    height: 80%;
+    height: 100%;
     max-width: 90%; 
     object-fit: cover; 
 }

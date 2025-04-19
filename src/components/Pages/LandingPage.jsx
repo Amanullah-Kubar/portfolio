@@ -1,6 +1,6 @@
 import React from 'react';
 import './LandingPage.css';
-import profilePic from '../../assets/WhatsApp_Image_2025-03-22_at_14.24.10_cfed76bf-removebg-preview.png';
+import profilePic from '../../assets/backgrounds/Get-the-Most-Fancied-Web-Development-Services-min-scaled-removebg-preview.png';
 
 export default function LandingPage() {
     return (
